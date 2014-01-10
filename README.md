@@ -1,7 +1,7 @@
 huemongous
 ==========
 [![Build Status](https://travis-ci.org/Antek-drzewiecki/huemongous.png?branch=master)](https://travis-ci.org/Antek-drzewiecki/huemongous)
-
+[![Code Climate](https://codeclimate.com/github/Antek-drzewiecki/huemongous.png)](https://codeclimate.com/github/Antek-drzewiecki/huemongous)
 
 Gem for interfacing with philips hue light
 
