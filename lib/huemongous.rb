@@ -1,5 +1,15 @@
 require "huemongous/version"
+require "httparty"
 
 module Huemongous
-  # Your code goes here...
+  
+  class << self
+
+  	include HTTParty
+  	
+  	def bridges
+
+  	end
+  end
+
 end
