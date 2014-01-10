@@ -8,7 +8,7 @@ Gem for interfacing with philips hue light
 
 Add this line to your application's Gemfile:
 
-    gem 'gw2'
+    gem 'huemongous'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install gw2
+    $ gem install huemongous
 
 ## Usage
 
