@@ -1,15 +1,4 @@
 require "huemongous/version"
-require "httparty"
+require "huemongous/huemongous"
 
-module Huemongous
-  
-  class << self
 
-  	include HTTParty
-  	
-  	def bridges
-
-  	end
-  end
-
-end
