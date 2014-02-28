@@ -9,7 +9,7 @@ module Huemongous
     
 
       def initialize(base_uri=nil)
-  		    @base_uri = URI("http://meethue.com") || URI(base_uri) if base_uri.nil?
+  		    @base_uri =  ( URI(base_uri) if base_uri ) || URI("http://meethue.com") 
       end
 
       def base_uri
