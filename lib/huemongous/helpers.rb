@@ -1,5 +1,5 @@
 module Huemongous
   module Helpers
-    require "huemongous/helpers/httpclient"
+    require "huemongous/helpers/client"
   end
 end
