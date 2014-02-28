@@ -2,7 +2,7 @@ module Huemongous
   module Helpers
 
 
-  	require "httparty"
+  	require "httpclient"
     require "uri"
   	class Client
   		
@@ -16,10 +16,16 @@ module Huemongous
         @base_uri
       end
 
+      def get()
+        
+        client.get(@base_uri.to_s)
+
+      end
+
       private 
 
       def client
-        @client ||= HttpClient.new
+        @client ||= HTTPClient.new
       end
   	end
 
