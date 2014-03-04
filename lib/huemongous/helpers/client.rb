@@ -16,8 +16,8 @@ module Huemongous
         @base_uri
       end
 
-      def get()
-        
+      def get(path)
+        @base_uri.path = path
         client.get(@base_uri.to_s)
 
       end
