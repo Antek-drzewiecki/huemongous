@@ -1,12 +1,10 @@
 module Huemongous
   module Helpers
 
-
-  	require "httpclient"
+    require "httpclient"
     require "uri"
-  	class Client
-  		
     
+  	class Client
 
       def initialize(base_uri=nil)
   		    @base_uri =  ( URI(base_uri) if base_uri ) || URI("http://meethue.com") 
